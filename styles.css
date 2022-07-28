@@ -84,17 +84,17 @@ body{
   font-family: Arial, Helvetica,sans-serif;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background-color: #7550fe;
 }
 .text-hero{
-  flex-grow: 3;
-  margin: auto;
-  margin-left: 370px;
+  display: flex;
+  flex-direction: column;
+  padding: 69px;
 }
 .hero-img {
-  background-repeat: no-repeat;
-  flex-grow:4;
-  margin-bottom: -2px;
+  display: flex;
+  flex-direction: column;
 }
 .buttons-hero {
   display: inline-block;
