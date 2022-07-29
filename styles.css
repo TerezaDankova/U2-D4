@@ -96,10 +96,9 @@ body{
   display: flex;
   flex-direction: column;
 }
-.buttons-hero {
+.btn-hero {
   display: inline-block;
-  width: 500px;
-  height: 200px;
+  margin-top: 18px;
 }
 .hero-h1 {
   color: white;
@@ -304,4 +303,48 @@ hr {
   font-size: 12px;
   color: #6e6e6e;
   
+}
+
+@media (max-width: 390px) {
+  body {
+   width: 100vw;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .text-hero {
+    padding-top: 8px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  .hero-img {
+    width: 30%;
+  }
+  .hero-h1 {
+    font-size: 21pt;
+  }
+  .hero-p1 {
+    color: rgb(184, 170, 170);
+    font-size: 12pt;
+    margin-top: -14px;
+  }
+  .btn-hero {
+    width: 30px;
+  }
+  .hero-b1 {
+    width: 140px;
+    height: 42px;
+    background-color: #19cb97;
+    border-radius: 4px;
+    border: none;
+    color: white;
+  }
+  .hero-b2 {
+    width: 163px;
+    height: 42px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    color: black;
+  }
 }
